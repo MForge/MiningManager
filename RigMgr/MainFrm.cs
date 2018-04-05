@@ -46,7 +46,7 @@ namespace MiningManager
         private BackgroundWorker bgwWattFix;
         private BackgroundWorker bgwMiningSoft;
 
-        private Icon MainIcon = Resources.GaugeGreen;
+        private Icon MainIcon = Resources.icon;
 
         private enum LogType { generalLog, fixProfile, goodWatt, debug, error };
 

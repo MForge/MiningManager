@@ -160,7 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Gauge0.ico" />
-    <None Include="Resources\GaugeGreen.ico" />
+    <None Include="Resources\icon.ico" />
     <None Include="Resources\twitterlogo.png" />
     <None Include="Resources\internet.png" />
     <None Include="Resources\Youtube22x22.png" />
