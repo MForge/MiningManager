@@ -1,0 +1,1 @@
+start "Miner 1" SimpleApp.exe
