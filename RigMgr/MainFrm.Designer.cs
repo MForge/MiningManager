@@ -87,6 +87,7 @@
             this.btngitHub = new System.Windows.Forms.Button();
             this.btnYoutube = new System.Windows.Forms.Button();
             this.btnFacebook = new System.Windows.Forms.Button();
+            this.lblMaxLimitWatt = new System.Windows.Forms.Label();
             this.gpuzPathClearBtn = new System.Windows.Forms.Button();
             this.afterburnetPathClearBtn = new System.Windows.Forms.Button();
             this.showLogsGB.SuspendLayout();
@@ -364,6 +365,7 @@
             // 
             this.wattFixGB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.wattFixGB.Controls.Add(this.lblMaxLimitWatt);
             this.wattFixGB.Controls.Add(this.lblMinW8);
             this.wattFixGB.Controls.Add(this.lblMinCheckWatt);
             this.wattFixGB.Controls.Add(this.pauseLbl);
@@ -804,6 +806,15 @@
             this.btnFacebook.UseVisualStyleBackColor = true;
             this.btnFacebook.Click += new System.EventHandler(this.btnFacebook_Click);
             // 
+            // lblMaxLimitWatt
+            // 
+            this.lblMaxLimitWatt.AutoSize = true;
+            this.lblMaxLimitWatt.Location = new System.Drawing.Point(244, 100);
+            this.lblMaxLimitWatt.Name = "lblMaxLimitWatt";
+            this.lblMaxLimitWatt.Size = new System.Drawing.Size(71, 13);
+            this.lblMaxLimitWatt.TabIndex = 54;
+            this.lblMaxLimitWatt.Text = "maximum 250";
+            // 
             // gpuzPathClearBtn
             // 
             this.gpuzPathClearBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -933,6 +944,7 @@
         private System.Windows.Forms.Button btnTwitter;
         private System.Windows.Forms.Label lblMinCheckWatt;
         private System.Windows.Forms.Label lblMinW8;
+        private System.Windows.Forms.Label lblMaxLimitWatt;
     }
 }
 
