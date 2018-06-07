@@ -100,7 +100,7 @@ namespace MiningManager
             else if (dgvMinsers.CurrentCell.ColumnIndex.Equals(2) && e.RowIndex != -1 && dgvMinsers.Rows[dgvMinsers.CurrentCell.RowIndex].Cells[4].Value.ToString() != "Click + to add a new link")
             {
                 // Dell
-                DialogResult frwInstall = MessageBox.Show("Do you realy want to delete this link (" + dgvMinsers.Rows[dgvMinsers.CurrentCell.RowIndex].Cells[3].Value.ToString() + ") ?", "DAoC DOL Launcher", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult frwInstall = MessageBox.Show("Do you realy want to delete this link (" + dgvMinsers.Rows[dgvMinsers.CurrentCell.RowIndex].Cells[3].Value.ToString() + ") ?", "Mining Manager", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (frwInstall == DialogResult.Yes)
                 {
                     m_settings.MinerList.delete(dgvMinsers.Rows[dgvMinsers.CurrentCell.RowIndex].Cells[3].Value.ToString(), dgvMinsers.Rows[dgvMinsers.CurrentCell.RowIndex].Cells[4].Value.ToString());
